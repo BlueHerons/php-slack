@@ -26,6 +26,10 @@ class Commander {
             'endpoint' => '/auth.test',
             'token'    => true
         ],
+        'auth.revoke' => [
+            'endpoint' => '/auth.revoke',
+            'token'    => true
+        ],
         'channels.archive' => [
             'token'    => true,
             'endpoint' => '/channels.archive'
@@ -393,6 +397,11 @@ class Commander {
             'token'    => true,
             'endpoint' => '/users.getPresence'
         ],
+        'users.identity' => [
+            'token'    => true,
+            'endpoint' => '/users.identity'
+        ],
+
         'users.info' => [
             'token'    => true,
             'endpoint' => '/users.info'
